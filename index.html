@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ansh Kumar Singh | Full Stack Developer</title>
+<meta name="description" content="Portfolio of Ansh Kumar Singh, Full Stack Developer and B.Tech AI student.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="side">
+  <img class="avatar" src="assets/photo.jpg" alt="Ansh Kumar Singh">
+  <nav class="menu" aria-label="Sections">
+    <a href="#home">Home</a><a href="#about">About me</a><a href="#resume">Resume</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+  </nav>
+</aside>
+
+<nav class="pill" aria-label="Quick navigation">
+  <a href="#home" aria-label="Home"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg></a>
+  <a href="#about" aria-label="About"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-5 4-7 8-7s8 2 8 7z"/></svg></a>
+  <a href="#resume" aria-label="Resume"><svg viewBox="0 0 24 24"><path d="M5 3h10l4 4v14H5z"/></svg></a>
+  <a href="#portfolio" aria-label="Portfolio"><svg viewBox="0 0 24 24"><path d="M3 3h8v8H3zM13 3h8v8h-8zM3 13h8v8H3zM13 13h8v8h-8z"/></svg></a>
+  <a href="#contact" aria-label="Contact"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3zM3 6l9 7 9-7" /></svg></a>
+</nav>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="hi">HI THERE!</p>
+    <h1>I'M <span>ANSH</span></h1>
+    <p class="role">Full Stack Developer</p>
+    <p>I'm a B.Tech Artificial Intelligence student and an AI web development intern. I build web apps that are simple to use and fast to load.</p>
+    <a class="btn" href="#about">More about me</a>
+  </div>
+  <div class="hero-photo"><img src="assets/photo.jpg" alt="Portrait of Ansh Kumar Singh"></div>
+</section>
+
+<section id="about" class="panel">
+  <h2 class="title">ABOUT ME</h2>
+  <p class="intro">I'm <strong>Ansh Kumar Singh,</strong> Full Stack Developer</p>
+  <p>I'm studying B.Tech in Artificial Intelligence at Meerut Institute of Technology and interning remotely in AI web development at InAmigos Foundation. I like turning ideas into working products, and my GitHub projects are education tools built with HTML, CSS, JavaScript and Firebase.</p>
+  <div class="about-grid">
+    <div class="stats">
+      <div><b>500+</b><span>LinkedIn connections</span></div>
+      <div><b>2</b><span>GitHub repositories</span></div>
+      <div><b>1</b><span>Internship</span></div>
+      <div><b>2024</b><span>B.Tech since</span></div>
+    </div>
+    <div>
+      <h3>What I do</h3>
+      <ul class="do">
+        <li><b>Web development</b><span>Responsive front ends in HTML, CSS and JavaScript.</span></li>
+        <li><b>Backend and data</b><span>Authentication and databases with Firebase.</span></li>
+        <li><b>AI-powered tools</b><span>Study and productivity apps with AI features.</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="resume" class="panel">
+  <h2 class="title">RESUME</h2>
+  <div class="cols">
+    <div>
+      <h3>Education</h3>
+      <article><time>Aug 2024 - Present</time><h4>B.Tech, Artificial Intelligence</h4><p>Meerut Institute of Technology, Baral, Partapur, Meerut</p></article>
+      <article><time>2024 - Present</time><h4>Affiliated university</h4><p>Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow</p></article>
+    </div>
+    <div>
+      <h3>Experience</h3>
+      <article><time>Aug 2026 - Present</time><h4>AI Web Development Intern</h4><p>InAmigos Foundation (IAF), remote internship focused on web development.</p></article>
+    </div>
+    <div>
+      <h3>Skills</h3>
+      <p class="chips"><span>Web Development</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span><span>Firebase</span><span>Git and GitHub</span><span>Analytical skills</span><span>Microsoft Excel</span><span>Strategy</span></p>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="panel">
+  <h2 class="title">PORTFOLIO</h2>
+  <div class="filters" role="group" aria-label="Filter projects">
+    <button class="on" data-f="all">All</button><button data-f="web">Web</button><button data-f="ai">AI</button>
+  </div>
+  <div class="grid">
+    <a class="card" data-t="web ai" href="https://github.com/Anshsingh88/EduMind-AI-Study-Assistant" target="_blank" rel="noopener">
+      <div class="thumb t1">EduMind</div>
+      <h4>EduMind: AI Study Assistant</h4>
+      <p>A study dashboard with notes, a to-do list, a Pomodoro timer and a whiteboard, backed by Firebase login and storage.</p>
+      <small>HTML, CSS, JavaScript, Firebase</small>
+    </a>
+    <a class="card" data-t="web" href="https://github.com/Anshsingh88/EduNet" target="_blank" rel="noopener">
+      <div class="thumb t2">EduNet</div>
+      <h4>EduNet</h4>
+      <p>An education-focused project. Add a short description here once the repo has one.</p>
+      <small>View on GitHub</small>
+    </a>
+  </div>
+  <p class="more"><a href="https://github.com/Anshsingh88" target="_blank" rel="noopener">See all repositories on GitHub</a></p>
+</section>
+
+<section id="contact" class="panel">
+  <h2 class="title">CONTACT</h2>
+  <p class="intro">Feel <strong>free</strong> to contact me!</p>
+  <p>Open to internships, collaborations and web projects. Email is the quickest way to reach me.</p>
+  <ul class="contact">
+    <li><b>Email</b><a href="mailto:anshsingh882007@gmail.com">anshsingh882007@gmail.com</a></li>
+    <li><b>Phone</b><a href="tel:+919241174235">+91 92411 74235</a></li>
+    <li><b>LinkedIn</b><a href="https://www.linkedin.com/in/ansh-kumar-singh-61a624330/" target="_blank" rel="noopener">ansh-kumar-singh</a></li>
+    <li><b>GitHub</b><a href="https://github.com/Anshsingh88" target="_blank" rel="noopener">Anshsingh88</a></li>
+  </ul>
+  <footer>&copy; <span id="yr"></span> Ansh Kumar Singh</footer>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
